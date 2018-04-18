@@ -1,0 +1,11 @@
+package com.javarush.task.task01.task0130;
+
+public class Solution {
+    public static void main(String[] args) {
+        System.out.println(convertCelsiumToFahrenheit(41));
+    }
+
+    public static double convertCelsiumToFahrenheit(int TC) {
+        return 1.8*TC + 32;
+    }
+}
